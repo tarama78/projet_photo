@@ -1,0 +1,17 @@
+optimisation
+    cree close_fen
+        fermer toutes les surfaces
+        
+    fermer tout les malloc
+
+    renomer les variables photos
+
+    mise au normes
+        fonction 25L
+        essayer de suppr #include <string.h>
+        essayer de suppr #include <math.h>
+
+ajout
+    mettre les lettres de la photos (ancien nom) par defaut quand on va dessus
+    quand on tappe des chiffres ca permet d'aller a la photo du chiffre tape
+    systeme de sauvegarde

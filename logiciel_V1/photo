@@ -1,0 +1,15 @@
+#!/bin/bash
+
+continuer='1'
+chemin="/mnt/c/data/fichier/prog/C/C/projet_photo/logiciel_V1"
+
+
+if [ $# == "1" ]; then
+	bash $chemin/photo.sh $chemin $1
+elif [ $# == 2 ]; then
+	bash $chemin/photo.sh $chemin $1 $2
+else
+	continuer='0'
+	echo "ERREUR : le nombre de parametre est incorrecte -> $#"
+fi
+

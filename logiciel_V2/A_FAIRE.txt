@@ -1,0 +1,34 @@
+A FAIRE
+    optimisation
+        fermer tout les malloc
+
+        str_nospace : mettre copy en malloc (on peut le free a la fin de la fonction)
+        
+        mise au normes
+            fonction 25L
+            essayer de suppr #include <string.h>
+            essayer de suppr #include <math.h>
+
+    ajout
+        quand on tappe des chiffres ca permet d'aller a la photo du chiffre tappe
+        touche rotation photo
+        changer police ecriture
+        remonter texte
+        quiter sans sauvegarder
+        
+        parametre >>> cree un fichier txt parametre
+            choix police
+            taille txt
+            taille fenetre
+            
+FAIT V2
+    optimisation
+        cree close_fen
+            SDL_FreeSurface(SDL_Surface *surface);
+            SDL_Quit();
+        optimisation basiques (par ex suppr {})
+        renomer les variables photos
+
+    ajout
+        mettre les lettres de la photos (ancien nom) par defaut quand on va dessus touche fleche haut pour suppr photos
+        systeme de sauvegarde

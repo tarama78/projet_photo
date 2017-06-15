@@ -1,0 +1,17 @@
+pour deplacer les photos dans un  seul dossier :
+    se mettre dans le dossier ou il y as les images (le dossier peut contenir des sous dossiers)
+    le -iname ignore la casse
+    /media/tim/ELEMENTS/_fichier/photos -> chemin ou les images seront copier
+    executer :
+    find -iname "*.jpg" -exec cp -v {} /media/tim/ELEMENTS/_fichier/photos \;
+
+pour renomer :
+    mkdir ../rename
+    exiv2 -r'../rename/20%y%m%d-%H%M%S_' -F rename * -v 
+
+pour supprimer les doublons :
+    cd ../rename
+    rm `find -iname "20*-*__*.*"`
+
+pour deplacer dans les fichiers par annee :
+    find -iname "2015*" -exec mv -v {} ../2015 \;

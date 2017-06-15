@@ -1,0 +1,44 @@
+A FAIRE
+    optimisation
+        fermer tout les malloc
+
+        str_nospace : mettre copy en malloc (on peut le free a la fin de la fonction)
+        
+        mise au normes
+            fonction 25L
+            essayer de suppr #include <string.h>
+            essayer de suppr #include <math.h>
+
+    ajout
+        touche rotation photo (touche a voir avec papa : espace ?)
+        mode quiter sans sauvegarder (touche a voir avec papa)
+        desupprimer la photo si on tappe un lettre
+        
+        parametre >>> cree un fichier txt parametre
+            choix police
+            taille txt
+            taille fenetre
+    
+    bug
+        la fenetre se ferme toute seule (le terminal en meme temps) de facon innexpliquer
+            
+V3
+    optimisation
+        TTF_Quit()
+    ajout
+        changement de police
+        quand on tappe des chiffres ca permet d'aller a la photo du chiffre tappe
+        savegarde auto
+        passage photo suivante quand suppr
+
+V2
+    optimisation
+        cree close_fen
+            SDL_FreeSurface(SDL_Surface *surface);
+            SDL_Quit();
+        optimisation basiques (par ex suppr {})
+        renomer les variables photos
+
+    ajout
+        mettre les lettres de la photos (ancien nom) par defaut quand on va dessus touche fleche haut pour suppr photos
+        systeme de sauvegarde

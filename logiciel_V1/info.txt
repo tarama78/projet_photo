@@ -1,0 +1,37 @@
+install.sh
+    pour installer photo en tant que commande (executable de n'importe ou comme ls ou mkdir)
+    pour le lancer /!\ etre dans le terminal et faire ./install.sh
+
+photo.sh
+    progarmme qui cree fichier_inf et l'envoie a out
+
+out
+    le logiciel en c
+    
+photo
+    fichier cree par install.sh et copie dans /bin
+    a appeler avec en parametre 
+        le nom du dossier photos
+        evnetuelement le nom du dossier poubelle (par def dossier_photos/../poubelle)
+    
+fichier_inf
+    fichier avec les info de photo.sh pour out
+    
+suppr_file.sh
+    pour supprimer les fichiers avec un ~ a la fin (ils sont innutiles)
+    
+commande_renommage.txt
+    commande pour renomer les photos en masse
+    
+compile.txt
+    commande pour compiler
+    
+c_files
+    dossier avec tous les .c et .h du programme c
+    
+police
+    dossier avec la police d'ecriture du programme c
+
+open.sh
+    pour ouvrir tout les fichier du projet c dans emacs (en console)
+    
