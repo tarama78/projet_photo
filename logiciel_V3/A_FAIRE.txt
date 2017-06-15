@@ -10,8 +10,8 @@ A FAIRE
             essayer de suppr #include <math.h>
 
     ajout
-        touche rotation photo (touche a voir avec papa : espace ?)
-        mode quiter sans sauvegarder (touche a voir avec papa)
+        touche rotation photo (espace)
+        mode quiter sans sauvegarder
         desupprimer la photo si on tappe un lettre
         
         parametre >>> cree un fichier txt parametre
